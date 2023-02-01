@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/mytyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+    <title>To do List</title>
+</head>
+<body>
+    <h1>To do List</h1>
+    <div>
+        <input type="text" id="taskTxt">
+        <button onclick="addTask();" class="newTask"><i class="fa-solid fa-plus"></i> New Task</button>
+    </div>
+
+    <div>
+        <h2>Outstanding Tasks <sub id="amountTasks"></sub></h2>
+        <ul id="taskList">
+
+        </ul>
+    </div>
+    <script src="scripts/ToDoList.js"></script>
+</body>
+</html>

@@ -1,6 +1,37 @@
-.text{
-    color: black;
-    font-family: Arial;
-    background-color: red;
-    width: fit-content;
+/*GLOBAL*/
+h1{
+    color: rgb(170, 124, 212);
+    font-weight: bolder;
+    font-size: 50px;
 }
+h2,ul,sub{
+    color: rgb(170, 124, 212);
+}
+body{
+    background-color: black;
+}
+ul{
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+
+
+/*MAIN*/
+#taskTxt{
+    padding: 3px;
+    border: 3px solid rgb(170, 124, 212);
+    background-color: white;
+}
+.newTask{
+    padding: 5px;
+    background-color: black;
+    color: rgb(170, 124, 212);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.newTask:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(170, 124, 212) 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
