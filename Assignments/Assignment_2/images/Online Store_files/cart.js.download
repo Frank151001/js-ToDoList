@@ -1,0 +1,22 @@
+//GLOBAL VARS
+let cart=[];
+function addProduct(){
+    let product = document.getElementById("txtProduct").value;
+    cart.push(product);
+    console.log(cart.length);
+    displayCart(product);
+}
+function displayCart(newProduct){
+    let item = `<li>${newProduct}</li>`;
+    console.log(item);
+    const ol=document.getElementById("productList");
+    ol.innerHtml+=item;
+}
+function numberOfProducts(){
+
+}
+
+function init(){
+    console.log("Init");
+}
+window.onload=init;

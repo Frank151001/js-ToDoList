@@ -1,0 +1,33 @@
+/*GLOBAL*/
+button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left:25px ;
+    margin-top: 330px;
+    text-align: center;
+    background-color: red;
+}
+img{
+    width: 300px;
+}
+body{
+    background-color: rgb(160, 117, 65);
+}
+h2{
+    background-color: rgb(192, 148, 28);
+    width: fit-content;
+    border: 5px solid rgb(107, 58, 13);
+    border-radius: 15px;
+}
+
+
+/*MAIN*/
+
+#Results{
+    position:absolute;
+    margin-top: 60px;
+    margin-left: 150px;
+    font-weight: bolder;
+    font-size: 20px;
+}
